@@ -1,0 +1,20 @@
+image: mcr.microsoft.com/dotnet/core/sdk:3.1
+
+include:
+  - template: Security/SAST.gitlab-ci.yml
+  - template: Secret-Detection.gitlab-ci.yml
+
+stages:
+  - build
+  - test
+  - publish
+
+build:
+  stage: build
+  script:
+    - dotnet build ./AssetsAPI/
+
+unit-tests:
+  stage: test
+  script:
+    - dotnet test ./AssetsAPI/

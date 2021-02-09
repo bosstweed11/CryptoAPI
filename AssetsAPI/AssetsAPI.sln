@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AssetsAPI", "AssetsAPI\AssetsAPI.csproj", "{76A3ED9A-6348-4995-9DD6-846615848C83}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetsAPI.UnitTests", "AssetsAPI.UnitTests\AssetsAPI.UnitTests.csproj", "{81336F7B-E604-4937-A1CC-096E8F46F754}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76A3ED9A-6348-4995-9DD6-846615848C83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76A3ED9A-6348-4995-9DD6-846615848C83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76A3ED9A-6348-4995-9DD6-846615848C83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76A3ED9A-6348-4995-9DD6-846615848C83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81336F7B-E604-4937-A1CC-096E8F46F754}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81336F7B-E604-4937-A1CC-096E8F46F754}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81336F7B-E604-4937-A1CC-096E8F46F754}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81336F7B-E604-4937-A1CC-096E8F46F754}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {444CA215-768F-4730-BAFB-6772E9894EFF}
+	EndGlobalSection
+EndGlobal
